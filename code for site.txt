@@ -1,0 +1,103 @@
+<html>
+<head>
+<title> Portfolio </title>
+</head>
+<body>
+
+  <form>
+   <a name="top"></a>
+   <p><a href="#end">Bottom</a></p>
+  </form>
+<h1>Portfolio</h1>
+<h2 style="background-color:#17A589;"> General information: </h2>
+<p> Name: Almira <br/>
+Surname: Burkutbayeva <br/>
+Patronymic: Maratkanovna <br/>
+Age: 19 <br> 
+Birtday date: 11.2002 <br>
+City: Almaty </p>
+  <br> <br>
+  <br> <br>
+  <br> <br>
+<hr/>
+<h2 style="background-color:#48C9B0;"> Education: </h2>
+<p> <img src = "https://scontent.fala3-2.fna.fbcdn.net/v/t39.30808-6/302517769_556747392919491_8140236990724448772_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeEBTJzW13XYJN3xoKm0xbst-pGOGIZ_9Qb6kY4Yhn_1BnnJptnmXtwIOVVwoHnt3cpcWsNbYbjMldq6OiivHxll&_nc_ohc=vCGi3YiAt2kAX_R199I&_nc_ht=scontent.fala3-2.fna&oh=00_AT9KEdiEVTMIuFmvHiOAz6rjTcFP01X0qGZUOIeaJqeojA&oe=632A9A70" width="110" height="100"
+  alt="Label of IITU" align="left" 
+  vspace="30" hspace="20">
+Student: IITU <br>
+Course: 3 <br/>
+Educational program: CSSE <br/></p> 
+<hr/>
+<br>
+<h2 style="background-color:#3498DB;"> Knowledge and skills </h2>
+  <br>
+  <p3> Programming languages: Java; C++, Python - basic level. <br> </p3>
+<p3> - Confident use of SQL, IntelliJ IDEA programs for application development,
+PostgreSQL, MySQL, Microsoft Office </p3> <br>
+<p3> - Ability to work with technical documentation in English.
+</p3> <br>
+<p3>- Knowledge of languages: Russian - fluent; Kazakh - colloquial; English - Upper-Intermediate, including special technical </p3> <br> <br>
+<hr/>
+<h2 style="background-color:#1F618D;"> Projects </h2>
+ <p4> 2022 - Developed a mini-project in Java language for passing the exam - client-service application with server and database connection using Socket programming, JDBC + MySQL, polymorphism and inheritance, abstraction, ArrayLists, object serialization, Java Swing for GUI , with an implementation of the Threads class. </p4> <br>
+<p4> Program features: authorization by checking the login and password from the database; connection of several clients in parallel; two main clients who have different access to the application's capabilities; writing data from the program interface to the database through the port and host address.
+  </p4>
+  
+<form>
+   <p><a href="#top">Top</a></p>
+   <a name ="end"> </a>
+ </form>
+</body>
+</html>
+
+/* css */
+body {
+  background-color: LightYellow;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTM4Xa5qSqk9qdOXaCNw0Lifw1LJN5dGRtqFw&usqp=CAU"); 
+  /*i don't have my photo, so it is Kwon Sohyun, 4Minute*/
+  
+  background-repeat: no-repeat;
+  background-position: 90% 22%;
+}
+
+h1 {
+  color: RebeccaPurple;
+  font-family: "Cursive", Lucida Handwriting;
+  text-align: center;
+  front-size: 60px
+}
+
+p {
+  font-family: "Cursive", Lucida Handwriting;
+  font-size: 20px;
+  margin: 30px;
+}
+
+h2{
+  font-family: "Fantasy", Papyrus;
+  margin: 30px;
+}
+
+img{
+  margin: -10px 10px 20px 0;
+}
+
+a{
+  color: #A93226 ;
+  text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+  font-size: 10pt;
+  margin: 500pt
+}
+
+p3{
+  font-family: "Gill Sans", sans-serif;;
+  text-shadow: 2px 2px 5px blue;
+  margin: 40px 20px;
+}
+
+p4{
+    font-family: system-ui;
+  color: #0E6655;
+  text-shadow: 1px 1px 2px black, 0 0 20px green, 0 0 5px darkgreen;
+  margin-left: 40px;
+}
